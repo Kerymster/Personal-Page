@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "../projectCard/ProjectCard";
 import "./ProjectList.css";
+import { apps } from "../../data";
 
 const ProjectList = () => {
   return (
@@ -14,12 +15,14 @@ const ProjectList = () => {
         </p>
       </div>
       <div className="pl-list">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {apps.map((item) => (
+          <ProjectCard
+            key={item.id}
+            img={item.img}
+            name={item.name}
+            link={item.link}
+          />
+        ))}
       </div>
     </div>
   );

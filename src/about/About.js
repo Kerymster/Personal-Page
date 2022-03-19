@@ -1,7 +1,5 @@
 import React from "react";
 import "./About.css";
-import developer from "../images/developer.jpg";
-import photographer from "../images/photographer1.jpg";
 
 const About = () => {
   return (
@@ -9,7 +7,11 @@ const About = () => {
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-          <img src={developer} alt="" className="a-img" />
+          <img
+            src="https://images.unsplash.com/photo-1631624215749-b10b3dd7bca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+            alt=""
+            className="a-img"
+          />
         </div>
       </div>
       <div className="a-right">
@@ -27,7 +29,11 @@ const About = () => {
           especimen.
         </p>
         <div className="a-banner">
-          <img src={photographer} alt="" className="a-banner-img" />
+          <img
+            src="https://images.unsplash.com/photo-1580892047528-7dfd384dce65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+            alt=""
+            className="a-banner-img"
+          />
         </div>
       </div>
     </div>
