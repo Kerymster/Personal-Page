@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectCard.css";
 
-const ProjectCard = ({ img, name, link }) => {
+const ProjectCard = ({ img, name, link, desc }) => {
   return (
     <div className="p">
       <div className="p-browser">
@@ -11,10 +11,17 @@ const ProjectCard = ({ img, name, link }) => {
       </div>
       <div className="p-content">
         <div className="p-back">
-          <a href={link} target="_blank" rel="noreferrer">
-            <img className="p-back-img" src={img} alt="application visuals" />
-            <p className="p-text">{name}</p>
-          </a>
+          <img className="p-back-img" src={img} alt="application visuals" />
+          <div className="p-intro">
+            <h1 className="p-text">{name}</h1>
+            <p>
+              <span>{name}</span>
+              {desc}
+            </p>
+            {/* <a href={link} target="_blank" rel="noreferrer">
+              <button>More</button>
+            </a> */}
+          </div>
         </div>
       </div>
     </div>

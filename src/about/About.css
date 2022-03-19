@@ -42,6 +42,7 @@
   width: 520px;
   height: 270px;
   border-radius: 20px;
+  box-shadow: 5px 5px 20px rgb(34, 40, 49);
 }
 .a-title {
   font-weight: 400;
