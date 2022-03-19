@@ -11,7 +11,7 @@ export const apps = [
     img: "https://images.unsplash.com/photo-1630476387426-52c6e0b14e50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     name: "Flash Chat",
     link: "https://flash-chat-us.netlify.app/",
-    desc: " is a swift chat application that users can easily create their chatrooms and attend these rooms with their nicknames. In order to create this application, socket.io is used in both client and server sides and it is deployed on the web via Heroku/Netlify ",
+    desc: " is a swift chat application that users can easily create their chatrooms and attend these rooms with their nicknames. In this application, socket.io is used in both client and server sides and it is deployed on the web via Heroku/Netlify ",
   },
   {
     id: 3,
