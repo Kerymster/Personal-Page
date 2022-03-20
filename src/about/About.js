@@ -15,18 +15,28 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
+        <h1 className="a-title">ABOUT ME</h1>
         <p className="a-sub">
-          Al contrario del pensamiento popular, el texto de Lorem Ipsum no es
-          simplemente texto aleatorio.
+          I have experience in identifying the requirements of the client,
+          planning, designing, implementing, and testing front-end web
+          applications by bringing together the vision, strategy, and execution
+          in a totally unstructured and resource-constrained environment.
+          <br /> I graduated with a degree in electronics engineering from the
+          Air Force Academy. Before making the switch to the development
+          environment, I worked for several years as an officer. That helped me
+          to become a multitask-handler in stressful and resource-constrained
+          environments.
         </p>
         <p className="a-desc">
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
-          las industrias desde el año 1500, cuando un impresor (N. del T.
-          persona que se dedica a la imprenta) desconocido usó una galería de
-          textos y los mezcló de tal manera que logró hacer un libro de textos
-          especimen.
+          I worked in the field of photography, videography, and web development
+          called Fanus Media.
+          <br /> As a front-end developer, I worked on ERP projects at Fanus
+          Media. I've developed extensive knowledge in
+          <br /> Programming languages: Javascript/Typescript <br /> Libraries:
+          React, Redux. <br /> Styling: CSS, SCSS. <br /> Methodologies:
+          Pair-Programming, Test-driven development. <br /> Git&Github,
+          Firebase, Bootstrap, Material UI, JIRA <br /> Graphic Programs:
+          Photoshop, Premiere Pro, Lightroom I am open to new job opportunities.
         </p>
         <div className="a-banner">
           <img

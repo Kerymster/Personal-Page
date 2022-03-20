@@ -22,9 +22,10 @@ const Intro = () => {
             </div>
           </div>
           <div className="i-desc">
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-            archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
-            de las industrias desde el año 1500
+            I am passionate about building excellent software that improves the
+            lives of those around me. I specialize in creating software for
+            clients ranging from individuals and small-businesses all the way to
+            large enterprise corporations.
           </div>
         </div>
       </div>
