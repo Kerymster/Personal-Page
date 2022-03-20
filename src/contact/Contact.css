@@ -43,6 +43,9 @@
 .c-icon {
   margin-right: 20px;
   background: #f05454;
+  border-radius: 50%;
+  border-style: solid;
+  padding: 2px;
 }
 
 .c-desc {

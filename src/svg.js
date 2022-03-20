@@ -3,8 +3,8 @@ export const logos = {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="c-icon"
-      width="40"
-      height="40"
+      width="50"
+      height="50"
       fill="currentColor"
       viewBox="0 0 16 16"
     >
@@ -15,8 +15,8 @@ export const logos = {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="c-icon"
-      width="40"
-      height="40"
+      width="50"
+      height="50"
       fill="currentColor"
       viewBox="0 0 16 16"
     >
@@ -27,8 +27,8 @@ export const logos = {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="c-icon"
-      width="40"
-      height="40"
+      width="50"
+      height="50"
       fill="currentColor"
       viewBox="0 0 16 16"
     >
