@@ -63,6 +63,40 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <div className="c-footer">
+        <div className="c-social">
+          <div className="c-social-item">
+            <a
+              href="https://www.instagram.com/kerymster/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {logos.instagram}
+            </a>
+          </div>
+          <div className="c-social-item">
+            <a
+              href="https://github.com/Kerymster"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {logos.github}
+            </a>
+          </div>
+          <div className="c-social-item">
+            <a
+              href="https://www.linkedin.com/in/kerim-y%C4%B1lmaz-tr61/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {logos.linkedin}
+            </a>
+          </div>
+        </div>
+        <div>
+          <h5> &copy; Kerim YILMAZ - 2019</h5>
+        </div>
+      </div>
     </div>
   );
 };
