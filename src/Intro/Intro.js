@@ -32,7 +32,6 @@ const Intro = () => {
       <div className="i-right">
         <div className="i-bg">
           <div className="i-bg2">
-            {" "}
             <img src={pp} alt="" className="i-img" />
           </div>
         </div>
