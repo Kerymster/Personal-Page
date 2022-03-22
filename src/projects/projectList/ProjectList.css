@@ -13,6 +13,9 @@
   font-size: 50px;
   font-weight: 600;
 }
+.pl-title-span {
+  color: #f05454;
+}
 .pl-desc {
   margin: 20px 0px;
 }
@@ -23,11 +26,11 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
   .pl-texts {
-    width: 450px;
+    width: 95%;
   }
   .pl-list {
-    width: 450px;
+    width: 100%;
   }
 }

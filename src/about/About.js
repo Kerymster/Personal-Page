@@ -16,7 +16,7 @@ const About = () => {
       </div>
       <div className="a-right">
         <h1 className="a-title">ABOUT ME</h1>
-        <p className="a-sub">
+        <div className="a-sub">
           I have experience in identifying the requirements of the client,
           planning, designing, implementing, and testing front-end web
           applications by bringing together the vision, strategy, and execution
@@ -26,7 +26,8 @@ const About = () => {
           environment, I worked for several years as an officer. That helped me
           to become a multitask-handler in stressful and resource-constrained
           environments.
-        </p>
+          <br />
+        </div>
         <p className="a-desc">
           I worked in the field of photography, videography, and web development
           called Fanus Media.

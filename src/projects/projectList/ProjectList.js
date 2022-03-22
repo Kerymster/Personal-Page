@@ -7,7 +7,9 @@ const ProjectList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Destiniy depends on Efforts</h1>
+        <h1 className="pl-title">
+          Destiniy depends on <span className="pl-title-span">Efforts</span>{" "}
+        </h1>
         <p className="pl-desc">
           This collection is a creative portfolio that everyone can be inspired.
           Different technologies, styling shortcuts & a whole lot more awaits
